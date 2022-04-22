@@ -19,7 +19,7 @@ const AboutUs = () => {
     let [index, setIndex] = useState(0)
 
     const nextButton = () => {
-		setIndex(index === pictures.length - 1 ? 0 : index + 1)
+		setIndex(index === pictures.length - 1 ? 0 : ++index)
 	}
 
     console.log(pictures)
