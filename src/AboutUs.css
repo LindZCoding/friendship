@@ -1,0 +1,27 @@
+.about-title {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.photo-slide {
+    border-radius: 8px;
+    width: 25vw;
+    height: auto;
+    max-height: 770px;
+    border-style: double;
+    border-width: thick;
+    border-color: orchid;
+}
+
+#next {
+    border-radius: 8px;
+    background-color: skyblue;
+    font-size: 20px;
+    padding: 14px 40px;
+    font-family: 'Lobster', cursive;
+}
+
+#next:hover {
+    background-color: orchid;
+    cursor: pointer;
+}
