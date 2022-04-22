@@ -5,6 +5,7 @@ import { useState } from 'react'
 const AboutUs = () => {
 
     const [pictures, setPictures] = useState([
+        {link: 'https://i.imgur.com/7xGaGQR.jpg', date: "US TRYING TO TAKE CUTE PICS"},
         {link: 'https://i.imgur.com/IgcvMbF.jpg', date: 'CHRISTMAS EVE!'},
         {link: 'https://i.imgur.com/C8QngZ4.jpg', date: 'HALLOWEEN!'},
         {link: 'https://i.imgur.com/QpHhStI.jpg', date: "SHANE'S GRAD PARTY!"},
@@ -13,7 +14,7 @@ const AboutUs = () => {
         {link: 'https://i.imgur.com/eHik3je.jpg', date: "LOG RIDE AT DISNEYLAND!"},
         {link: 'https://i.imgur.com/pxFvdr2.jpg', date: "MATTERHORN AT DISNEYLAND!"},
         {link: 'https://i.imgur.com/TLYyIMc.jpg', date: "MARVEL STORE AT DISNEYLAND!"},
-        {link: 'https://i.imgur.com/7xGaGQR.jpg', date: "US TRYING TO TAKE CUTE PICS"}
+        {link: 'https://i.imgur.com/q0tlr0N.png', date: "WORKING OUT!"}
     ])
     let [index, setIndex] = useState(0)
 
@@ -25,9 +26,9 @@ const AboutUs = () => {
 
     return (
         <div className="about-title">
-            <h1>About us</h1>
+            <h1>Memories</h1>
             <button id='next' onClick={nextButton}>Next Memory</button>
-            <h2>{pictures[index].date}</h2>
+            <h2 className='picture-text'>{pictures[index].date}</h2>
             <p><img className='photo-slide' onClick={nextButton} src={pictures[index].link} alt="friend photo" /></p>
         </div>
     )

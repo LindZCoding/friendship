@@ -1,5 +1,6 @@
 .title {
   text-align: center;
+  color: whitesmoke;
 }
 
 body {
@@ -10,10 +11,10 @@ body {
 .button-56 {
   align-items: center;
   background-color: #fee6e3;
-  border: 2px solid #111;
+  border: 2px solid orchid;
   border-radius: 8px;
   box-sizing: border-box;
-  color: #111;
+  color: orchid;
   cursor: pointer;
   display: flex;
   font-family: Inter, sans-serif;
@@ -33,7 +34,7 @@ body {
 }
 
 .button-56:after {
-  background-color: #111;
+  background-color: skyblue;
   border-radius: 8px;
   content: "";
   display: block;
@@ -58,6 +59,7 @@ body {
 
 .button-56:hover {
   outline: 0;
+  background-color:peachpuff;
 }
 
 @media (min-width: 768px) {
@@ -76,4 +78,7 @@ body {
   border-radius: 8px;
   max-width: 30vw;
   height: auto;
+  border-style: double;
+  border-width: thick;
+  border-color: orchid;
 }

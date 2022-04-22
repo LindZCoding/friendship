@@ -1,6 +1,13 @@
 .about-title {
     text-align: center;
+    font-size: large;
     font-family: 'Lobster', cursive;
+    color: whitesmoke;
+}
+
+.picture-text {
+    color: whitesmoke;
+    border-bottom: 3px solid skyblue;
 }
 
 .photo-slide {
@@ -16,6 +23,7 @@
 #next {
     border-radius: 8px;
     background-color: skyblue;
+    color: whitesmoke;
     font-size: 20px;
     padding: 14px 40px;
     font-family: 'Lobster', cursive;

@@ -13,7 +13,7 @@ function App() {
           element={<MainPage />}
         />
         <Route
-          path='/about'
+          path='/memories'
           element={<AboutUs />}
         />
       </Routes>
