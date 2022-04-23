@@ -5,7 +5,7 @@
 
 body {
   background-image: url('https://i.imgur.com/N3J6hdJ.jpg');
-  font-family: 'Lobster', cursive;
+  font-family: 'FinkHeavy';
 }
 
 .button-56 {
@@ -30,7 +30,7 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  font-family: 'Lobster', cursive;
+  font-family: 'FinkHeavy';
 }
 
 .button-56:after {
@@ -71,7 +71,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-evenly;
-  font-family: 'Lobster', cursive;
+  font-family: 'FinkHeavy';
 }
 
 .pic {

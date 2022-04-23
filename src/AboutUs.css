@@ -1,7 +1,7 @@
 .about-title {
     text-align: center;
     font-size: large;
-    font-family: 'Lobster', cursive;
+    font-family: 'FinkHeavy';
     color: whitesmoke;
 }
 
@@ -26,7 +26,7 @@
     color: whitesmoke;
     font-size: 20px;
     padding: 14px 40px;
-    font-family: 'Lobster', cursive;
+    font-family: 'FinkHeavy';
 }
 
 #next:hover {
